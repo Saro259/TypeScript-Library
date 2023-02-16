@@ -1,0 +1,22 @@
+{
+  "name": "date-formatter",
+  "version": "1.0.3",
+  "description": "This library is specially designed to help developer format their date inputs",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "dev": "node lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saro259/TypeScript-Library.git"
+  },
+  "author": "Saro Elza Mathew",
+  "license": "MIT",
+  "files": [
+    "lib/**/*"
+  ]
+}
